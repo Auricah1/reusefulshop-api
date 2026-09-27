@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.Auricah1/reusefulshop",
   "description": "Live second-hand price estimates with confidence for AI agents. Cached lookups free.",
