@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
   "name": "io.github.Auricah1/reusefulshop",
-  "description": "Second-hand price intelligence: what is a used item worth? Returns low/typical/high estimates with sample size and confidence from live marketplace data. Cached lookups are free via MCP.",
+  "description": "Live second-hand price estimates with confidence for AI agents. Cached lookups free.",
   "version": "1.0.0",
   "websiteUrl": "https://reusefulshop.com",
   "remotes": [
