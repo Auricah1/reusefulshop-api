@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.reusefulshop/reusefulshop",
+  "description": "Second-hand price intelligence: what is a used item worth? Returns low/typical/high estimates with sample size and confidence from live marketplace data. Cached lookups are free via MCP.",
+  "version": "1.0.0",
+  "websiteUrl": "https://reusefulshop.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://reusefulshop.com/mcp"
+    }
+  ]
+}
