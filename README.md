@@ -7,7 +7,7 @@
 - Methodology: https://reusefulshop.com/methodology
 - OpenAPI: https://reusefulshop.com/openapi.json
 - Free sample dataset (100 items): https://reusefulshop.com/data/sample.json
-- Run by the team behind the [ReusefulShop eBay shop](https://www.ebay.co.uk/str/reusefulshop) (100% positive feedback over the last 12 months).
+- Run by the team behind the [ReusefulShop eBay shop](https://www.ebay.co.uk/str/reusefulshop) (100% positive feedback, 5,000+ items sold).
 - Listed in the official MCP registry (`io.github.Auricah1/reusefulshop`), on [Smithery](https://smithery.ai/server/auricah1/reusefulshop) and as a [Glama connector](https://glama.ai/mcp/connectors/io.github.Auricah1/reusefulshop). Payments settle through Coinbase's x402 facilitator.
 
 ## Endpoints
