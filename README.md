@@ -8,6 +8,7 @@
 - OpenAPI: https://reusefulshop.com/openapi.json
 - Free sample dataset (100 items): https://reusefulshop.com/data/sample.json
 - Run by the team behind the [ReusefulShop eBay shop](https://www.ebay.co.uk/str/reusefulshop).
+- Listed in the official MCP registry (`io.github.Auricah1/reusefulshop`), on [Smithery](https://smithery.ai/server/auricah1/reusefulshop) and as a [Glama connector](https://glama.ai/mcp/connectors/io.github.Auricah1/reusefulshop). Payments settle through Coinbase's x402 facilitator.
 
 ## Endpoints
 
@@ -16,6 +17,7 @@
 | `GET /api/worth?q=<item>` | low / typical / high, sample size, confidence, source | $0.01 |
 | `GET /api/deal?q=<item>&price=<asking>` | verdict: great deal / good deal / fair price / above average / overpriced | $0.01 |
 | `GET /api/history?q=<item>` | daily price snapshots | $0.02 |
+| `GET /api/sold?q=<item>` | real sold prices from the operator's eBay shop | $0.01 |
 | `GET /health` | status and integrations | free |
 
 Base URL: `https://reusefulshop.com`
@@ -42,7 +44,7 @@ PRIVATE_KEY=0x... npx tsx examples/buyer.ts "used playstation 5 console"
 
 ## MCP server (Claude, Cursor, any MCP client)
 
-Endpoint: `https://reusefulshop.com/mcp` (Streamable HTTP). Tools: `get_worth`, `check_deal`, `get_history`. Cached lookups are free via MCP.
+Endpoint: `https://reusefulshop.com/mcp` (Streamable HTTP). Tools: `get_worth`, `check_deal`, `get_history`, `get_sold` (real sold prices from the operator's own eBay shop). Cached lookups are free via MCP.
 
 ```json
 {
